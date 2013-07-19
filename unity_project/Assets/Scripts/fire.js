@@ -1,5 +1,9 @@
-var weaponStrengthMultiplier:int = 1500;
-var projectileMass:int = 900;
+var weaponStrengthMultiplier:int = 1;
+var projectileMass:int = 1;
+var projectileSpeed:int = 10000;
+var projectileScale:int = 10;
+
+
 
 function Start () 
 {
@@ -13,13 +17,13 @@ function Update ()
 		//TODO: This will ultimatly be a cross hair
 		var ray:Ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		var sphere:GameObject = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-		sphere.transform.localScale.x = 10;
-		sphere.transform.localScale.y = 10;
-		sphere.transform.localScale.z = 10;
+		sphere.transform.localScale.x = projectileScale;
+		sphere.transform.localScale.y = projectileScale;
+		sphere.transform.localScale.z = projectileScale;
 		sphere.transform.position = ray.origin;
 		sphere.AddComponent("Rigidbody");
 		sphere.rigidbody.mass = projectileMass;
-		sphere.rigidbody.AddForce(ray.direction * 10000 * weaponStrengthMultiplier );
+		sphere.rigidbody.AddForce(ray.direction * projectileSpeed * weaponStrengthMultiplier );
 	}
 	
 	//TODO: We will need to clean up old projectiles in 1 or 2 ways
