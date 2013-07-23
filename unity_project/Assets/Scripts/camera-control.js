@@ -18,7 +18,8 @@ function Start ()
 	startPos.x = cTarget.transform.position.x;
 	startPos.z = cTarget.transform.position.z; 
 	startPos.y = cTarget.transform.position.y;
-	vValue = startPos.y;
+	//vValue = startPos.y;
+	vValue = groundPlane.transform.position.y +10;
 }
 
 function Update () 

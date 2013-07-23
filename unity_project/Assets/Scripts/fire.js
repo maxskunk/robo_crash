@@ -21,7 +21,7 @@ function Update ()
 		//TODO: This will ultimatly be a cross hair
 		var ray:Ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 		//var projectileObject:GameObject = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-		projectileObject = Instantiate(projectilePrefab, transform.position, transform.rotation);
+		var projectileObject:GameObject = Instantiate(projectilePrefab, transform.position, transform.rotation);
 		projectileObject.transform.localScale.x = projectileScale;
 		projectileObject.transform.localScale.y = projectileScale;
 		projectileObject.transform.localScale.z = projectileScale;

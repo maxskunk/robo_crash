@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\fire.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\camera-control.js">
     <Files>
-      <File FileName="Assets\Scripts\fire.js" Line="38" Column="2" />
+      <File FileName="Assets\Scripts\fire.js" Line="6" Column="29" />
+      <File FileName="Assets\Scripts\camera-control.js" Line="27" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
