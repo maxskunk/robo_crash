@@ -1,9 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\camera-control.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\explode.js">
     <Files>
-      <File FileName="Assets\Scripts\fire.js" Line="6" Column="29" />
-      <File FileName="Assets\Scripts\camera-control.js" Line="27" Column="37" />
+      <File FileName="Assets\Scripts\explode.js" Line="9" Column="51" />
+      <File FileName="Assets\Scripts\camera-control.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\fire.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\timedObjectDestructor.js" Line="6" Column="1" />
+      <File FileName="Assets\Scripts\startAsleep.js" Line="1" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

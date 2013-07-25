@@ -2,7 +2,7 @@ var weaponStrengthMultiplier:int = 1;
 var projectileMass:int = 1;
 var projectileSpeed:int = 10000;
 var projectileScale:int = 1;
-var projectileLifeSpan:int = 20;
+var projectileLifeSpan:int = 5;
 var projectilePrefab:GameObject;
 
 
@@ -29,7 +29,7 @@ function Update ()
 		projectileObject.AddComponent("Rigidbody");
 		projectileObject.rigidbody.mass = projectileMass;
 		projectileObject.rigidbody.AddForce(ray.direction * projectileSpeed * weaponStrengthMultiplier );
-		Destroy(projectileObject, projectileLifeSpan);//Destroy the game object in 100 seconds.
+		Destroy(projectileObject, projectileLifeSpan);//Destroy the game object in the number of delayed seconds.
 	}
 	
 	//TODO: We will need to clean up old projectiles in 1 or 2 ways
