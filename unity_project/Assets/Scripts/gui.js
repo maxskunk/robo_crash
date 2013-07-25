@@ -5,6 +5,7 @@ private var buttonXMargin:int = 10;	//margin from the left side of the screen
 private var buttonYMargin:int = 10; //margin from the top of the screen
 private var buttonYGap:int = 10;	//Gap between the bottom of one button and the top of another
 
+//----Buttons----
 function OnGUI () {
 	//create quit button
 	if (GUI.Button (Rect (buttonXMargin,buttonYMargin,buttonWidth,buttonHieght), "QUIT")) {

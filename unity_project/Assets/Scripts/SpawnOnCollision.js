@@ -5,7 +5,6 @@ var explosionPrefab:Transform;
 //var radius:int = 5;
 //var power:int = 10;
 
-
 function OnCollisionEnter(collision : Collision) {
 	// Rotate the object so that the y-axis faces along the normal of the surface
 	var contact = collision.contacts[0];
