@@ -9,7 +9,7 @@ var isShuttingDown : boolean = false;	//lets us know if we are in the process of
 
 //----Score---- 
 function Start () {
-	txtScoreBoard = GameObject.Find("GUI/txtScore").GetComponent(GUIText);
+	txtScoreBoard = GameObject.Find("Globals/txtScore").GetComponent(GUIText);
     //Globals.globalVariables.GetComponent(Globals).setScore(0);
     UpdateScoreText();
 }

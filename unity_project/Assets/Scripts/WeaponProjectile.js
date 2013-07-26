@@ -1,6 +1,7 @@
 var weaponStrengthMultiplier:int = 1;
 var projectileMass:int = 1;
 var projectileSpeed:int = 10000;
+
 var projectileScale:int = 1;
 var projectileLifeSpan:int = 5;
 var projectilePrefab:GameObject;
