@@ -45,13 +45,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AddPoints.js" />
+     <Compile Include="Assets\Scripts\DestroyOnCollision.js" />
+     <Compile Include="Assets\Scripts\DestroyOnSpawn.js" />
      <Compile Include="Assets\Scripts\Explode.js" />
      <Compile Include="Assets\Scripts\Globals.js" />
      <Compile Include="Assets\Scripts\Goal.js" />
      <Compile Include="Assets\Scripts\SpawnOnCollision.js" />
      <Compile Include="Assets\Scripts\SpawnOnDestroy.js" />
+     <Compile Include="Assets\Scripts\WeaponHitScan.js" />
+     <Compile Include="Assets\Scripts\WeaponLaser.js" />
+     <Compile Include="Assets\Scripts\WeaponProjectile.js" />
      <Compile Include="Assets\Scripts\camera-control.js" />
-     <Compile Include="Assets\Scripts\fire.js" />
      <Compile Include="Assets\Scripts\gui.js" />
      <Compile Include="Assets\Scripts\startAsleep.js" />
      <Compile Include="Assets\Scripts\timedObjectDestructor.js" />
