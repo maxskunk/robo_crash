@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\SpawnOnDestroy.js" />
      <Compile Include="Assets\Scripts\WeaponHitScan.js" />
      <Compile Include="Assets\Scripts\WeaponLaser.js" />
+     <Compile Include="Assets\Scripts\WeaponProjectile (from tiny5.1).js" />
      <Compile Include="Assets\Scripts\WeaponProjectile.js" />
      <Compile Include="Assets\Scripts\camera-control.js" />
      <Compile Include="Assets\Scripts\gui.js" />
